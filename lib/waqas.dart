@@ -7,7 +7,7 @@ class waqas extends StatelessWidget {
     return Scaffold(
       appBar:  AppBar(
         centerTitle: true,
-        title: Text('hi my name is hamza'),
+        title: Text('hi my name is waqas'),
         leading: Text('waqas'),
         actions: [IconButton(onPressed: (){}, icon: Icon(Icons.more_vert, color: Colors.red,))],
       ),
