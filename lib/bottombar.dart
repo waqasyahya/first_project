@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:islame2/homepage.dart';
 
-class HomeIcon extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Icon(Icons.home);
-  }
-}
 
 class AboutIcon extends StatelessWidget {
   @override
