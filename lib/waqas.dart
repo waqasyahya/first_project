@@ -18,11 +18,12 @@ class waqas extends StatelessWidget {
         leading: Text('waqas'),
         actions: [IconButton(onPressed: (){}, icon: Icon(Icons.more_vert, color: Colors.red,))],
       ),
-      body: Column(
+      body: Row(
+
         children: [
 
           iconwidget(60, 'ajkdh','usman'),
-          iconwidget(60,'ajkdh','usmaan'),
+          iconwidget(60,'ajkdh','ali'),
           iconwidget(60,'ajkdh','ali'),
         ],
       ),
@@ -37,6 +38,8 @@ String name;
 
   iconwidget(this.height, this.name, this.name1);
 
+  get width => null;
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -45,7 +48,9 @@ String name;
           'assets/icon/house.svg',
           semanticsLabel: 'Acme Logo',
           height: height,
+          width: width,
           color: Colors.red,
+
 
         ),
 
